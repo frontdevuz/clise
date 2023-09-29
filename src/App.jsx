@@ -7,13 +7,13 @@ import About from "./pages/about/about";
 import Service from "./pages/service/service";
 import Contact from "./pages/contact/contact";
 import Blog from "./pages/blog/blog";
-import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
+import Navbar from "./components/navbar/navbar";
 
 export default function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
