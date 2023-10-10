@@ -7,8 +7,8 @@ import About from "./pages/about/about";
 import Service from "./pages/service/service";
 import Contact from "./pages/contact/contact";
 import Blog from "./pages/blog/blog";
-import Footer from "./components/footer/footer";
 import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </React.Fragment>
   );
 }

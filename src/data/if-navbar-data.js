@@ -1,10 +1,10 @@
-import Clise__logo from "../assets/pngLOGO/Clise__logo (2).png";
+import CliseLogo from "../assets/pngLOGO/лы-removebg-preview.png";
 export const navbarData = [
   {
     id: 1,
     name: "Home page",
     url: "/",
-    icon: Clise__logo,
+    icon: CliseLogo,
   },
   {
     id: 2,

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { navbarData } from "../../data/if-navbar-data";
-import Clise__logo from "../../assets/pngLOGO/Clise__logo (2).png";
+
 import {
   NavbarContainer,
   NavbarLi,
@@ -19,7 +19,7 @@ export default function Navbar() {
           <NavbarWrapper>
             {navbarData.slice(0, 1).map((item, index) => (
               <NavbarLogoContainer key={index}>
-                <Link to={item.url}>
+                <Link to={item.url} className="navbar__link">
                   <NavbarLogo src={item.icon} alt="This is a CLISE logo" />
                 </Link>
               </NavbarLogoContainer>
