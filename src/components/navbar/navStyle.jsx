@@ -63,7 +63,7 @@ export const NavbarUl = styled.ul`
     li {
       color: white;
       font-weight: 400;
-      transition: all 0.3s linear;
+      transition: all 0.3s linear; 
     }
   }
 `;

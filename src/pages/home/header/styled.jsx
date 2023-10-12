@@ -34,7 +34,7 @@ export const Header__text = styled.p`
 
 export const Header__img__container = styled.div`
   height: 100%;
-  width: 650px;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,8 +43,14 @@ export const Header__img__container = styled.div`
 export const Header__img = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0px 2px 20px #05364d;
-  
+  object-fit: contain;
+  animation: circle 9s linear infinite;
+  @keyframes circle {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 `;
