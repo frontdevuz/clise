@@ -44,7 +44,7 @@ export const Header__img = styled.img`
   width: 100%;
   height: 100%;
   object-fit: contain;
-  animation: circle 9s linear infinite;
+  animation: circle 17s linear infinite;
   @keyframes circle {
     0% {
       transform: rotate(0);

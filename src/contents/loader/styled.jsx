@@ -6,7 +6,7 @@ export const LoaderDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #04364d;
+  background-color: #3E9663;
   position: fixed;
   z-index: 999 !important;
 `;

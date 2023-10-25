@@ -10,8 +10,8 @@ export const NavbarContainer = styled.nav`
   justify-content: center;
   align-items: center;
   z-index: 999 !important;
-  background-color: aliceblue;
-  box-shadow: #04364d 0px 1px 5px 0px;
+  background-color: white;
+  box-shadow: #3E9663 0px 1px 5px 0px;
   border-radius: 0 0 30px 30px;
 `;
 
@@ -52,7 +52,7 @@ export const NavbarUl = styled.ul`
   align-items: center;
   justify-content: space-around;
   .active {
-    background-color: #04364d;
+    background-color: #3E9663;
     border-radius: 10px;
     &:hover {
       li {
