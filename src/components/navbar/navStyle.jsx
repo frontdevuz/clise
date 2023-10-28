@@ -28,9 +28,9 @@ export const NavbarWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    .active{
+    /* .active{
       color:black !important;
-    }
+    } */
   }
 `;
 
@@ -55,7 +55,7 @@ export const NavbarUl = styled.ul`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  .active {
+  /* .active {
     background-color: #fff;
     border-radius: 10px;
     color:black !important;
@@ -70,7 +70,7 @@ export const NavbarUl = styled.ul`
       font-weight: 400;
       transition: all 0.3s linear;
     }
-  }
+  } */
 `;
 
 export const NavbarLi = styled.li`

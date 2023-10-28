@@ -3,19 +3,19 @@ export const navbarData = [
   {
     id: 1,
     name: "Home page",
-    url: "/",
+    url: "#",
     icon: CliseWhite,
   },
   {
     id: 2,
-    name: "About us",
-    url: "/about",
+    name: "Biz haqimizda",
+    url: "#about us",
   },
-  { id: 3, name: "Services", url: "/service" },
+  { id: 3, name: "Xizmatlar", url: "#services" },
   {
     id: 4,
-    name: "News",
-    url: "/blog",
+    name: "Yangiliklar",
+    url: "#blog",
   },
-  { id: 5, name: "Contact us", url: "/contact" },
+  { id: 5, name: "Bog'lanish", url: "#contact" },
 ];

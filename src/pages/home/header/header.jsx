@@ -13,7 +13,7 @@ import {
   Header__con,
   Header__p,
   Header__span,
-  Header__t
+  Header__t,
 } from "./styled";
 import Button from "../../../components/button/button";
 import Loader from "../../../contents/loader/loader";
@@ -48,7 +48,9 @@ export default function HomeHeader(props) {
               <Header__container>
                 <Header__content>
                   <Header__title>
-                    <Header__t>Clise</Header__t>{item.title}</Header__title>
+                    <Header__t>Clise</Header__t>
+                    {item.title}
+                  </Header__title>
                   <Header__con>
                     <Header__text>
                       <Header__span>Clise</Header__span>
@@ -56,11 +58,18 @@ export default function HomeHeader(props) {
                     </Header__text>
                   </Header__con>
                   <Header__con>
-                    <Header__p>Our motto:</Header__p>
-                    <Header__text>{item.moto}</Header__text>
+                    <Header__p>Bizning shior:</Header__p>
+                    <Header__text
+                      style={{
+                        color: "#3e9663",
+                        fontWeight: "300",
+                        fontSize: "18px",
+                      }}
+                    >
+                      {item.moto}
+                    </Header__text>
                   </Header__con>
-
-                  <Button to={"/about"}>About us</Button>
+                  <Button to={"https://t.me/it_clise"}>Biz haqimizda</Button>
                 </Header__content>
                 <Header__img__container>
                   <Header__img
