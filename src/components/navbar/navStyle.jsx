@@ -11,8 +11,9 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   z-index: 999 !important;
   background-color: white;
-  box-shadow: #3E9663 0px 1px 5px 0px;
+  box-shadow: #3e9663 0px 1px 5px 0px;
   border-radius: 0 0 30px 30px;
+  background-color: #3e9663;
 `;
 
 export const NavbarWrapper = styled.div`
@@ -27,6 +28,9 @@ export const NavbarWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    .active{
+      color:black !important;
+    }
   }
 `;
 
@@ -52,8 +56,9 @@ export const NavbarUl = styled.ul`
   align-items: center;
   justify-content: space-around;
   .active {
-    background-color: #3E9663;
+    background-color: #fff;
     border-radius: 10px;
+    color:black !important;
     &:hover {
       li {
         transform: rotate(0);
@@ -61,9 +66,9 @@ export const NavbarUl = styled.ul`
     }
     padding: 0 10px;
     li {
-      color: white;
+      color: black !important;
       font-weight: 400;
-      transition: all 0.3s linear; 
+      transition: all 0.3s linear;
     }
   }
 `;
@@ -76,7 +81,7 @@ export const NavbarLi = styled.li`
   align-items: center;
   font-size: 16px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   transition: all 0.3s linear;
   &:hover {
     transform: rotate(-20deg);

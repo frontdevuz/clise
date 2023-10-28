@@ -1,11 +1,10 @@
-import CliseLogo from "../assets/pngLOGO/лы-removebg-preview.png";
-import CliseL from "../assets/jpgIMG/c1.jpg"
+import CliseWhite from "../assets/pngLOGO/image-removebg-preview (20).png";
 export const navbarData = [
   {
     id: 1,
     name: "Home page",
     url: "/",
-    icon: CliseL,
+    icon: CliseWhite,
   },
   {
     id: 2,
