@@ -1,0 +1,88 @@
+.bir {
+  animation: icons 5s linear infinite;
+  animation-delay:1s;
+  @keyframes icons {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-15px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+.bir {
+  color: #3e9663;
+  transition: all 0.4s linear;
+
+  &:hover {
+    transform: scale(1.5);
+    transition: all 0.4s linear;
+    color:#FF1C05;
+  }
+}
+.ikki {
+  transition: all 0.4s linear;
+  color: #3e9663;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.4s linear;
+    color:rgb(0, 183, 255);
+  }
+  animation: icons2 5s linear infinite;
+  animation-delay:2s;
+  @keyframes icons2 {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+.uch {
+  transition: all 0.4s linear;
+  color: #3e9663;
+  animation: icons3 5s linear infinite;
+  animation-delay:3s;
+
+  @keyframes icons3 {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-25px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.4s linear;
+    color:#0866FF;
+  }
+}
+.icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-instagram,
+.fa-telegram,
+.fa-facebook {
+  font-size: 33px;
+}

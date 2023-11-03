@@ -17,6 +17,7 @@ import {
 } from "./styled";
 import Button from "../../../components/button/button";
 import Loader from "../../../contents/loader/loader";
+import SocialIcons from "../../../contents/social-icons/social-icons";
 async function HomeFunction() {
   const HomeAPI =
     "https://64c073290d8e251fd1121b94.mockapi.io/portfolio/api/izzatillo/clise-center";
@@ -69,7 +70,8 @@ export default function HomeHeader(props) {
                       {item.moto}
                     </Header__text>
                   </Header__con>
-                  <Button to={"https://t.me/it_clise"}>Biz haqimizda</Button>
+                  <SocialIcons />
+                  <Button to={"https://t.me/wetheclise"}>Biz haqimizda</Button>
                 </Header__content>
                 <Header__img__container>
                   <Header__img

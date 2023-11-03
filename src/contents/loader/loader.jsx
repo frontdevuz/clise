@@ -23,7 +23,7 @@ export default function Loader() {
               <LoaderSpan />
             </LoaderSpanBox>
           </LoaderBox>
-          <LoaderText >Loading ....</LoaderText>
+          <LoaderText >Yuklanmoqda ....</LoaderText>
         </LoaderItem>
       </LoaderDiv>
     </React.Fragment>

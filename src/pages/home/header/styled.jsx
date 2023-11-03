@@ -24,7 +24,7 @@ export const Header__span = styled.span`
 `;
 export const Header__content = styled.div`
   width: 600px;
-  height: 400px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -45,7 +45,8 @@ export const Header__text = styled.p`
 
 export const Header__img__container = styled.div`
   height: 100%;
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,15 +61,9 @@ export const Header__con = styled.div`
 export const Header__img = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  animation: circle 30s linear infinite;
-  border-radius: 300px;
-  @keyframes circle {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+  object-fit: cover;
+  border-radius:10px;
+  box-shadow:0px -2px 20px #3e9663;
+  box-shadow: #3e9663 0px 3px 8px;
+
 `;
