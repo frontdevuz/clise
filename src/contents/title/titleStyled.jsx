@@ -3,13 +3,16 @@ export const TitleContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
+  transition: all .4s linear !important;
+
 `;
 export const TitleBox = styled.div`
   height: 50px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  transition: all .4s linear !important;
 
 `;
 export const TitleRow = styled.div`
@@ -21,13 +24,15 @@ export const TitleRow = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .4s linear !important;
+
   &:hover{
     background-color: #3e9663;
     color: white;
     cursor: pointer;
-    transition: all .4s linear;
+    transition: all .4s linear !important;
     p{
-      color: white;
+      color: white !important;
     }
   }
 `;

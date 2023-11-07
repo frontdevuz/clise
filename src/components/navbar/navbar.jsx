@@ -1,39 +1,57 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { navbarData } from "../../data/if-navbar-data";
-
-import {
-  NavbarContainer,
-  NavbarLi,
-  NavbarLogo,
-  NavbarLogoContainer,
-  NavbarUl,
-  NavbarWrapper,
-} from "./navStyle";
+import React, { useRef, useEffect } from "react";
 import Container from "./../container/container";
-export default function Navbar() {
+import { Link } from "react-router-dom";
+import Icon from "../../assets/pngLOGO/image-removebg-preview (20).png";
+import { navbarData } from "./../../data/if-navbar-data";
+import Sidebar from "../../contents/sidebar/siderbar.jsx";
+import "./navbar-responsive.less";
+import "./navbar.less";
+const Navbar = () => {
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classList.toggle("navbar__responsive");
+  };
   return (
     <React.Fragment>
-      <NavbarContainer>
+      <nav className="navbar">
         <Container>
-          <NavbarWrapper>
-            {navbarData.slice(0, 1).map((item, index) => (
-              <NavbarLogoContainer key={index}>
-                <Link to={item.url} className="navbar__link">
-                  <NavbarLogo src={item.icon} alt="This is a CLISE logo" />
-                </Link>
-              </NavbarLogoContainer>
-            ))}
-            <NavbarUl>
-              {navbarData.slice(1).map((item, index) => (
-                <NavLink to={item.url} key={index}>
-                  <NavbarLi>{item.name}</NavbarLi>
-                </NavLink>
-              ))}
-            </NavbarUl>
-          </NavbarWrapper>
+          <div className="navbar__container">
+            <div className="navbar__logo">
+              <img
+                src={Icon}
+                alt="This  is a Navbar icon"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+              />
+            </div>
+            <ul className="navbar__items" ref={navRef}>
+              {navbarData.slice(1).map((nav) => {
+                return (
+                  <li
+                    className="navbar__item"
+                  >
+                    <a
+                      href={nav.url}
+                      className={"navbar__item-link"}
+                      onClick={showNavbar}
+                    >
+                      {nav.name}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+            <button className="navbar__items__sidebar" onClick={showNavbar}>
+              <Sidebar />
+            </button>
+          </div>
         </Container>
-      </NavbarContainer>
+      </nav>
     </React.Fragment>
   );
-}
+};
+
+export default Navbar;

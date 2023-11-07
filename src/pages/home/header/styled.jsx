@@ -8,12 +8,12 @@ export const Header__t = styled.span`
  padding-right: 10px;
 `;
 export const Header__container = styled.div`
-  height: 400px;
   margin-top: 10em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 3rem 0;
 `;
 export const Header__span = styled.span`
   display: inline-block;

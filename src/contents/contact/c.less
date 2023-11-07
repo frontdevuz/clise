@@ -1,0 +1,128 @@
+.aloqa {
+  margin-top: 5rem;
+  &__box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 5rem 7rem;
+  }
+  &__left {
+    width: 100%;
+    max-width: 600px;
+    border-top: 3px solid #3e9663;
+    border-bottom: 3px solid #3e9663;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem 2rem;
+    border-radius:10px;
+
+  }
+  &__location__logo  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    color: #3e9663;
+    background: rgba(192, 192, 192, 0.475);
+    border-radius: 50%;;
+  }
+  &__top__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    color: #3e9663;
+    background: rgba(192, 192, 192, 0.475);
+    border-radius: 50%;;
+
+  }
+  &__number__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    color: #3e9663;
+    background: rgba(192, 192, 192, 0.475);
+    border-radius: 50%;;
+  
+  }
+  
+  &__right {
+    width: 100%;
+    max-width: 600px;
+    border-top: 3px solid #3e9663;
+    border-bottom: 3px solid #3e9663;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem 2rem;
+    border-radius:10px;
+  }
+  &__left__bottom {
+    width: 100%;
+  }
+  &__top__l {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem 1rem;
+  }
+  &__email__title,&__number__title,&__location__title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+  }
+  &__email__text,&__number__text,&__location__text{
+    font-size: 15px;
+    color:rgb(76, 72, 72);
+  }
+  &__right__box{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  &__inp__box{
+    display: flex;
+    flex-direction: column;
+    input{
+        height: 40px;
+    }
+    label{
+      cursor: pointer;
+      color:#000;
+      font-size: 17px;
+      margin-bottom: .4rem;
+      font-weight: 300;
+    }
+    input,textarea{
+      width: 100%;
+      border:1px solid grey;
+      border-radius:5px;
+      padding: 0px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      color:#3e9663;
+      outline: none;
+      &:focus{
+        outline: 1px solid #3e9663;
+        cursor: pointer;
+      }
+    }
+  }
+  &__btn{
+    background: #3e9663;
+    height: 40px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+  }
+}

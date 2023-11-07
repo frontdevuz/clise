@@ -1,12 +1,19 @@
 import React from "react";
 import Header from "./header/header";
-import SocialIcons from "./../../contents/social-icons/social-icons";
 import About from "./about/about";
+import Service from "../service/service";
+import ContactNumber from "../../contents/contactNumber/contactNumber";
+import Contact from "../../contents/contact/contact";
+import Footer from "../../components/footer/footer";
 export default function Home() {
   return (
     <React.Fragment>
       <Header />
       <About />
+      <Service />
+      <ContactNumber />
+      <Contact/>
+      <Footer/>
     </React.Fragment>
   );
 }

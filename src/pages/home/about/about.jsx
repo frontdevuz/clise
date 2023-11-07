@@ -1,6 +1,13 @@
 import React from "react";
 import Title from "../../../contents/title/title";
 import {
+  Aside,
+  AsideBox,
+  AsideContent,
+  AsideImg,
+  AsideImgBox,
+  AsideText,
+  AsideTitle,
   Hero,
   HeroBox,
   HeroContent,
@@ -11,6 +18,8 @@ import {
 import Container from "../../../components/container/container";
 import { useQuery } from "react-query";
 import Loader from "../../../contents/loader/loader";
+import Dropdown from "../../../components/dropdown/dropdown";
+import Arrow from "../../../contents/arrow/arrow";
 async function HomeFunction() {
   const HomeAPI =
     "https://64c073290d8e251fd1121b94.mockapi.io/portfolio/api/izzatillo/clise-center";
@@ -37,19 +46,40 @@ export default function About(props) {
       <Title>Biz haqimizda</Title>
       {data.map((item, index) => {
         return (
-          <Hero>
-            <Container>
-              <HeroBox>
-                <HeroContent>
-                  <HeroText>{item.about__part}</HeroText>
-                  <HeroText>{item.about__part2}</HeroText>
-                </HeroContent>
-                <HeroImgBox>
-                  <HeroImg src={item.about__img} />
-                </HeroImgBox>
-              </HeroBox>
-            </Container>
-          </Hero>
+          <>
+            <Arrow />
+
+            <Hero  id="about">
+              <Container>
+                <HeroBox>
+                  <HeroContent>
+                    <HeroText>{item.about__part}</HeroText>
+                    <HeroText>{item.about__part2}</HeroText>
+                  </HeroContent>
+                  <HeroImgBox>
+                    <HeroImg src={item.about__img} />
+                  </HeroImgBox>
+                </HeroBox>
+              </Container>
+            </Hero>
+            <Aside>
+              <Container>
+                <AsideBox>
+                  <AsideContent>
+                    <AsideTitle>{item.select__title}</AsideTitle>
+                    <AsideText>{item.select__text}</AsideText>
+                    <Dropdown />
+                  </AsideContent>
+                  <AsideImgBox>
+                    <AsideImg
+                      src={item.select__img}
+                      alt="This is a select img"
+                    />
+                  </AsideImgBox>
+                </AsideBox>
+              </Container>
+            </Aside>
+          </>
         );
       })}
     </React.Fragment>
