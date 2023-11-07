@@ -10,7 +10,6 @@ export default function App() {
     <React.Fragment>
       <Navbar />
       <Home />
-      <Footer />
     </React.Fragment>
   );
 }
