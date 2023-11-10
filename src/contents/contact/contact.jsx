@@ -8,7 +8,7 @@ export default function Contact() {
   const [mes, setMes] = useState("");
   const botToken = "6525876222:AAGyEMBRnk50aBfPfj_4ZdHL6tlMLrZlM1I";
   const ChanelID = "-1002012355212";
-  let DATA = `O'quvchining ismi: ${text} \nTelefon raqami: ${number} \nxabari ${mes}\n{@izzatillodev};`;
+  let DATA = `O'quvchining ismi: ${text} \nTelefon raqami: ${number} \nXabari: ${mes}\n{@izzatillodev};`;
   const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${ChanelID}&text=${encodeURI(
     DATA
   )}`;

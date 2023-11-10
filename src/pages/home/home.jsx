@@ -5,6 +5,7 @@ import Service from "../service/service";
 import ContactNumber from "../../contents/contactNumber/contactNumber";
 import Contact from "../../contents/contact/contact";
 import Footer from "../../components/footer/footer";
+import "../../components/responsive/responsive.less"
 export default function Home() {
   return (
     <React.Fragment>
