@@ -40,5 +40,4 @@ export const TitleS = styled.p`
   font-size: 20px;
   font-weight: 300;
   color: #000;
-  text-transform: capitalize;
 `;

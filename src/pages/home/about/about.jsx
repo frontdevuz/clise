@@ -48,7 +48,6 @@ export default function About(props) {
         return (
           <>
             <Arrow />
-
             <Hero  id="about">
               <Container>
                 <HeroBox>
