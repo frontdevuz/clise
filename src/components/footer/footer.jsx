@@ -14,7 +14,8 @@ export default function Footer() {
         <Container>
           <FooterBottom>
             <FooterBottomLeft>
-              © Mualifflik huquqi <em> CLISE </em>.Barcha huquqlar himoyalangan
+              © Mualifflik huquqi
+              <p style={{fontSize:"17px", marginTop:".7rem", fontWeight:"200"}}>Clisening barcha huquqlar himoyalangan</p>
             </FooterBottomLeft>
             <FooterBottomRight>
               CLISE jamoasi tomonidan qurilgan

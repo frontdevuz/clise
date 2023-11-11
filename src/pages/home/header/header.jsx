@@ -1,7 +1,9 @@
 import axios from "axios";
-import React from "react";
+import React, { useEffect } from "react";
 import { useQuery } from "react-query";
 import Container from "./../../../components/container/container";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import {
   Header__container,
   Header__content,
@@ -24,6 +26,7 @@ async function HomeFunction() {
   const { data } = await axios(HomeAPI);
   return data;
 }
+
 export default function HomeHeader(props) {
   const { data, error, isError, isLoading } = useQuery(
     "home__key",
@@ -39,6 +42,7 @@ export default function HomeHeader(props) {
   if (isError) {
     return <div>Xatolik ! {error.message}</div>;
   }
+
   return (
     <React.Fragment>
       {props.children}

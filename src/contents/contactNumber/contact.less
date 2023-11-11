@@ -4,15 +4,15 @@
   background-position: to right;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 0px 10px inset #fff;
   border-radius: 20px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  background:#3e9663;
-  
+  background: #3e9663;
+
+  background-position: top;
 }
 
 .box {
@@ -22,23 +22,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 .content {
   width: 650px;
+  transition: all 0.5s linear;
 }
 .buttoni {
-    height: 50px;
-    display: flex;
-    width: 200px !important;
-    justify-content: center;
-    align-items:center;
-    font-size: 17px;
-    font-weight: 300;
-    border-radius: 10px !important;
-    background: #fff;
-    color:#3e9663;
-    font-weight: 500;
+  height: 50px;
+  display: flex;
+  width: 200px !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 10px !important;
+  background: #fff;
+  color: #3e9663;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  &:hover {
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s linear;
+    background: #3e9663;
+  }
 }
 .fa-phone-volume {
   position: relative;
