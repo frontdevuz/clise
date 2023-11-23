@@ -32,7 +32,7 @@ export default function Contact() {
                   <div className="aloqa__location__box">
                     <p className="aloqa__location__title">Manzil</p>
                     <p className="aloqa__location__text">
-                      Andijon shahar , Istiqlol ko'chasi , 27-uy .
+                      Andijon shahar, Istiqlol ko'chasi, 27-uy.
                     </p>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Contact() {
                     <i className="fa-solid fa-phone f"></i>
                   </a>
                   <div className="aloqa__number__box">
-                    <p className="aloqa__number__title">Qo'ng'iroq qiling</p>
+                    <p className="aloqa__number__title">Telefon raqamimiz</p>
                     <p className="aloqa__number__text">+998 90 203 37 00</p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="aloqa__inp__box">
-                  <label htmlFor="area">Xabar</label>
+                  <label htmlFor="area">Izoh</label>
                   <textarea
                     id="area"
                     cols="30"
@@ -105,7 +105,6 @@ export default function Contact() {
                   className="aloqa__btn"
                 >
                   Yuborish
-            
                 </button>
               </div>
             </form>

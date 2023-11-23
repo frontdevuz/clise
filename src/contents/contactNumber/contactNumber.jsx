@@ -19,10 +19,10 @@ export default function ContactNumber() {
                 }}
               >
                 Qo'ng'iroq qiling{" "}
-                <i
+                {/* <i
                   className="fa-solid fa-phone"
                   style={{ marginLeft: "10px", paddingTop: "2px" }}
-                ></i>
+                ></i> */}
               </p>
               <p
                 className="text"
@@ -34,9 +34,8 @@ export default function ContactNumber() {
                 }}
               >
                 "CLISE" tomonidan taklif qilinayotgan xizmatlar haqida qo'shimcha
-                ma'lumot olish uchun o'ng tomondagi tugmani bosing qong'iroq
-                qiling , ko'proq ma'lumot oling, hechham ikkilamang albatta
-                o'zingiz uchun eng muhim ma'lumotlarni bilib olasiz !
+                ma'lumot olish uchun biz bilan bog'laning va ko'proq ma'lumotga ega bo'ling. Hechham ikkilamang va albatta
+                o'zingiz uchun eng muhim ma'lumotlarni bilib oling !
               </p>
             </div>
             <a href="tel:+998902033700" className="buttoni">

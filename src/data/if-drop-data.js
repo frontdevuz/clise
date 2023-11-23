@@ -7,7 +7,7 @@ export const Drop = [
   {
     id: 2,
     name: "Dasturlash kurslari",
-    text: "Mobil telefon , kompyuterlar uchun ilovalar  yaratish va  veb ilovalar ishlab chiqish !",
+    text: "Mobil telefon , kompyuterlar uchun ilovalar  yaratish va veb ilovalar ishlab chiqish !",
   },
   {
     id: 3,
