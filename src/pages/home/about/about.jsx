@@ -52,7 +52,7 @@ export default function About(props) {
               <Container>
                 <HeroBox>
                   <HeroContent>
-                    <HeroText>"CLISE" {item.about__part}</HeroText>
+                    <HeroText>"Clise" {item.about__part}</HeroText>
                     <HeroText>{item.about__part2}</HeroText>
                   </HeroContent>
                   <HeroImgBox>
@@ -66,7 +66,7 @@ export default function About(props) {
                 <AsideBox>
                   <AsideContent>
                     <AsideTitle>{item.select__title}</AsideTitle>
-                    <AsideText>"CLISE"{item.select__text}</AsideText>
+                    <AsideText>"Clise"{item.select__text}</AsideText>
                     <Dropdown />
                   </AsideContent>
                   <AsideImgBox>
