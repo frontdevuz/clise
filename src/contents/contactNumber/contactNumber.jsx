@@ -33,7 +33,7 @@ export default function ContactNumber() {
                   lineHeight: "35px",
                 }}
               >
-                Clise tomonidan taklif qilinayotgan xizmatlar haqida qo'shimcha
+                "CLISE" tomonidan taklif qilinayotgan xizmatlar haqida qo'shimcha
                 ma'lumot olish uchun o'ng tomondagi tugmani bosing qong'iroq
                 qiling , ko'proq ma'lumot oling, hechham ikkilamang albatta
                 o'zingiz uchun eng muhim ma'lumotlarni bilib olasiz !
