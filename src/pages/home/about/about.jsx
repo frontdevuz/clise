@@ -48,11 +48,11 @@ export default function About(props) {
         return (
           <>
             <Arrow />
-            <Hero  id="about">
+            <Hero id="about">
               <Container>
                 <HeroBox>
                   <HeroContent>
-                    <HeroText>{item.about__part}</HeroText>
+                    <HeroText>"CLISE"{item.about__part}</HeroText>
                     <HeroText>{item.about__part2}</HeroText>
                   </HeroContent>
                   <HeroImgBox>
