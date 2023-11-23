@@ -52,7 +52,7 @@ export default function About(props) {
               <Container>
                 <HeroBox>
                   <HeroContent>
-                    <HeroText>"CLISE"{item.about__part}</HeroText>
+                    <HeroText>"CLISE" {item.about__part}</HeroText>
                     <HeroText>{item.about__part2}</HeroText>
                   </HeroContent>
                   <HeroImgBox>
