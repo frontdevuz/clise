@@ -25,7 +25,7 @@ export default function dropdown() {
             <div className="dropdown__content">
               <p className="dropdown__text">
                 Boshlang'ich kompyuter savodxonligi va boshlang'ich
-                dasturlashdan shunchalar
+                dasturlashdan tushunchalar
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function dropdown() {
             </div>
             <div className="dropdown__content">
               <p className="dropdown__text">
-                Mobil telefon , kompyuterlar uchun ilova qilish, web ilovalar
+                Mobil telefonlar , kompyuterlar uchun ilova qilish va veb ilovalar
                 yaratish !
               </p>
             </div>
@@ -63,8 +63,7 @@ export default function dropdown() {
           </div>
           <div className="dropdown__content">
             <p className="dropdown__text">
-              Ingliz tilini o'rnaganish bolalar hamda kattalar uchun maxsus
-              kurslar , rus tilini 0 dan o'rganish !
+              Bolalar hamda kattalar uchun rus va ingliz tillarini 0 dan boshlab o'rgatish
             </p>
           </div>
         </div>
