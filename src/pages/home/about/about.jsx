@@ -66,7 +66,7 @@ export default function About(props) {
                 <AsideBox>
                   <AsideContent>
                     <AsideTitle>{item.select__title}</AsideTitle>
-                    <AsideText>"Clise"{item.select__text}</AsideText>
+                    <AsideText>"Clise" {item.select__text}</AsideText>
                     <Dropdown />
                   </AsideContent>
                   <AsideImgBox>

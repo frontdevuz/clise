@@ -10,7 +10,7 @@ export const ServiceContainer = styled.div`
 export const ServiceBox = styled.div`
   width: 300px;
   padding: 25px;
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ export const ServiceBox = styled.div`
   transition: all.4s linear;
 
   &:hover {
-    box-shadow: 0px 0px 20px #3e9663;
+    box-shadow: 0px 0px 10px #3e9663;
     transition: all.4s linear;
   }
 `;

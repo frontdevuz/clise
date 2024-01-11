@@ -63,7 +63,6 @@ export const Header__img = styled.img`
   height: 100%;
   object-fit: cover;
   border-radius:10px;
-  box-shadow:0px -2px 20px #3e9663;
-  box-shadow: #3e9663 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 `;
